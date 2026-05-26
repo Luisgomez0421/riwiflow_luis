@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@riwi.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Coder User",
+      "email": "coder@riwi.com",
+      "password": "123456",
+      "role": "coder"
+    }
+  ],
+
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Create Login",
+      "description": "Build authentication page",
+      "status": "todo",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "title": "Fix Dashboard",
+      "description": "Improve kanban layout",
+      "status": "in-progress",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "Review API",
+      "description": "Check endpoints",
+      "status": "in-review",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Deploy Project",
+      "description": "Deploy final version",
+      "status": "done",
+      "userId": 1
+    }
+  ]
+}
